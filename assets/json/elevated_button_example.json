@@ -1,0 +1,96 @@
+{
+  "type": "scaffold",
+  "appBar": {
+    "type": "appBar",
+    "title": {
+      "type": "text",
+      "data": "Elevated Button"
+    }
+  },
+  "body": {
+    "type": "row",
+    "mainAxisAlignment": "center",
+    "crossAxisAlignment": "center",
+    "children": [
+      {
+        "type": "column",
+        "mainAxisAlignment": "center",
+        "crossAxisAlignment": "center",
+        "children": [
+          {
+            "type": "row",
+            "mainAxisAlignment": "center",
+            "crossAxisAlignment": "center",
+            "children": [
+              {
+                "type": "elevatedButton",
+                "child": {
+                  "type": "text",
+                  "data": "select file"
+                },
+                "style": {
+                  "padding": {
+                    "top": 8,
+                    "left": 12,
+                    "right": 12,
+                    "bottom": 8
+                  }
+                },
+                "onPressed": {
+                  "actionType": "selectFile"
+                }
+              },
+               {
+                "type": "sizedBox",
+                "width": 20
+              },
+              {
+                "type": "elevatedButton",
+                "child": {
+                  "type": "text",
+                  "data": "Thumnil"
+                },
+                "style": {
+                  "padding": {
+                    "top": 8,
+                    "left": 12,
+                    "right": 12,
+                    "bottom": 8
+                  }
+                },
+                "onPressed": {
+                  "actionType": "thumnil"
+                }
+              },
+              {
+               "type": "sizedBox",
+               "width": 20
+             },
+             {
+               "type": "elevatedButton",
+               "child": {
+                 "type": "text",
+                 "data": "open gallery"
+               },
+               "style": {
+                 "padding": {
+                   "top": 8,
+                   "left": 12,
+                   "right": 12,
+                   "bottom": 8
+                 }
+               },
+               "onPressed": {
+                 "actionType": "openGallery"
+               }
+             }
+            
+              
+            ]
+          }
+        
+        ]
+      }
+    ]
+  }
+}
